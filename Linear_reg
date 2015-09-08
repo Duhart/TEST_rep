@@ -1,0 +1,7 @@
+# Este es un código sencillo en R
+
+x<-runif(10)
+eps<-rnorm(10,0,0.5)
+y<-2*x+3+eps
+mod<-lm(y~x)
+summary(mod)
